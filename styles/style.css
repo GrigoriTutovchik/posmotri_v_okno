@@ -14,7 +14,7 @@ html {
   align-items: center;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Fira Sans Condensed', 'Arial' , sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   inline-size: 1200px;
@@ -120,13 +120,14 @@ ol {
   border: none;
   border-top: 1px solid #FFF;
   border-bottom: 1px solid #FFF;
+  padding: 0;
   color: rgba(255, 255, 255, 0.70);
-  font-family:'Fira Sans Condensed',sans-serif;
+  font-family:'Fira Sans Condensed', 'Arial' ,sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
   line-height: normal;
-  text-align: center;
+  text-align: start;
   background-color: transparent;
   appearance: none;
   }
@@ -134,7 +135,7 @@ ol {
 .search-form__fieldset-title {
   margin-bottom: 6px;
   color: #FFF;
-  font-family: 'Fira Sans Condensed' , sans-serif;
+  font-family: 'Fira Sans Condensed' , 'Arial' , sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -160,7 +161,7 @@ ol {
 
 .title {
   color: #FFF;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', 'Arial' , sans-serif;
   font-weight: 700;
   font-size: 75px;
   font-style: normal;
@@ -181,7 +182,7 @@ ol {
 .content__list {
   position: relative;
   height: 298px;
-  overflow: scroll;
+  overflow: auto;
   cursor: pointer;
 }
 
@@ -241,7 +242,7 @@ ol {
 
 .content__video-card-title {
   color: #FFF;
-  font-family: Oswald;
+  font-family: 'Oswald' , 'Arial' , sans-serif ;
   font-weight: 700;
   font-size: 30px;
   font-style: normal;
@@ -251,7 +252,7 @@ ol {
 
 .content__video-card-description {
   color: #FFF;
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed' , 'Arial' , sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -276,7 +277,7 @@ fieldset {
   height: 34px;
   border: 1px solid #FFF;
   color: #FFF;
-  font-family: 'Fira Sans Condensed',sans-serif;
+  font-family: 'Fira Sans Condensed', 'Arial' , sans-serif;
   font-weight: 700;
   font-size: 18px;
   font-style: normal;
